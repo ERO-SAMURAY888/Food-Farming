@@ -1,0 +1,35 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap'); */
+
+@font-face {
+    font-family: "OpenSans", Arial, sans-serif;
+    src: url(./font/OpenSans/OpenSans-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "OpenSans", Arial, sans-serif;
+    src: url(./font/OpenSans/OpenSans-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "OpenSans", Arial, sans-serif;
+    src: url(./font/OpenSans/OpenSans-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "OpenSans", Arial, sans-serif;
+    src: url(./font/OpenSans/OpenSans-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "OpenSans", Arial, sans-serif;
+    src: url(./font/OpenSans/OpenSans-Bold.ttf);
+    font-weight: 700;
+}
+
+body{
+    font-family: "OpenSans", Arial, sans-serif;
+}

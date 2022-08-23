@@ -1,0 +1,301 @@
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*--------------------*/
+
+body {
+    font-family: "OpenSans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    color: #3F4042;
+    background-color: #E5E5E5;
+
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #000000;
+}
+
+.container {
+    width: 1440px;
+    height: 940px;
+
+    background: #ffffff;
+
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 0 10px;
+
+}
+
+.main-container {
+    width: 1320px;
+    height: 634px;
+
+    background-color: #fff6e9;
+    box-shadow: 0px 60px 80px #c37e3e4a;
+
+    position: relative;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.user-navigation-list{
+    position: relative;
+    z-index: 999;
+}
+
+.grape img {
+    position: absolute;
+    left: 680px;
+    bottom: -60px;
+}
+
+.main-container::before {
+    content: url("./svg/mouse.svg");
+    position: absolute;
+    left: 650px;
+    top: 556px;
+}
+
+.link-defolt {
+    color: #C08D5D;
+}
+
+.main-navigation a {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 600;
+
+    margin-left: 56px;
+    z-index: 2;
+}
+
+.main-navigation a:hover {
+    color: #C08D5D;
+}
+
+.main-navigation {
+    display: flex;
+    box-sizing: border-box;
+    padding-top: 58px;
+    margin-left: 232px;
+}
+
+.main-navigation::after {
+    content: url("./svg/Logo.svg");
+    position: absolute;
+    left: 740px;
+    top: 102px;
+}
+
+.main-navigation:hover::before {
+    opacity: 0.6;
+}
+
+.site-navigation-list,
+.user-navigation-list {
+    display: flex;
+}
+
+.menu-link {
+    position: absolute;
+    left: 44px;
+}
+
+.menu-link:hover {
+    content: url("./svg/navigation-Icon-brown.svg");
+}
+
+.user-navigation-list {
+    margin-left: 172px;
+}
+
+.logo-title {
+    font-family: "TimesNewRoman", Times, serif;
+    font-size: 70px;
+    line-height: 82px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+
+    color: #3F4042;
+
+    position: relative;
+    top: 84px;
+    margin-left: 120px;
+}
+
+.logo-title span {
+    font-size: 50px;
+    line-height: 67px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+}
+
+.logo-title::before {
+    content: url("./svg/Logo-big.svg");
+    position: absolute;
+    left: 138px;
+    top: -2px;
+}
+
+.logo-title::after {
+    content: url("./svg/wavy-line.svg");
+    position: absolute;
+    top: 145px;
+    right: 1024px;
+}
+
+.offer {
+    font-size: 18px;
+    line-height: 147.6%;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+
+    width: 535px;
+
+    color: #3F4042;
+
+    position: relative;
+    top: 145px;
+    left: 120px;
+}
+
+.form {
+    position: relative;
+    top: 218px;
+    left: 120px;
+}
+
+.form input:focus {
+    border: 3px solid #6037108b;
+    box-shadow: 5px 0px 10px #C08D5D;
+}
+
+.form-input {
+    font-size: 20px;
+    line-height: 147.6%;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+
+    width: 138px;
+    height: 65px;
+
+    color: #3F4042;
+    border: 3px solid #C08D5D;
+
+    padding-left: 12px;
+}
+
+.button-form {
+    background-color: #C08D5D;
+    width: 60px;
+    height: 65px;
+
+    position: relative;
+    right: 6px;
+    bottom: 7px;
+}
+
+.button-form::after {
+    content: url("./svg/Vector.svg");
+    position: absolute;
+    right: 15px;
+    top: 24px;
+}
+
+.button-form:hover {
+    opacity: 0.6;
+}
